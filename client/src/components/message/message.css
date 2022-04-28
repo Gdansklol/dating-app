@@ -2,6 +2,7 @@
 .message {
     display: flex;
     flex-direction: column;
+    margin-top: 20px;
 }
 
 .messageTop {
@@ -13,4 +14,26 @@
     border-radius: 50%;
     object-fit: cover;
     margin-right: 10px;
+}
+
+.messageText {
+    padding: 10px;
+    border-radius: 20px;
+    background-color: blue;
+    color: white;
+    max-width: 300px;
+}
+
+.messageBottom {
+    font-size: 14px;
+    margin-top: 10px;
+}
+
+.message .own {
+    align-items: flex-end;
+}
+
+.message .own .messageText {
+    background-color: lightgray;
+    color: black;
 }

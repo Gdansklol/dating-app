@@ -29,7 +29,7 @@ export default function Conversation ({conversation, currentUser}) {
             className="converstionImg" 
             // src="https://static3.srcdn.com/wordpress/wp-content/uploads/2021/03/Harry-potter-and-the-cursed-child-movie.jpg?q=50&fit=crop&w=960&h=500&dpr=1.5"
                 src={
-          user?.profilePicture
+            user?.profilePicture
             ? PF + user.profilePicture
             : PF + "person/noAvatar.png"
         }
